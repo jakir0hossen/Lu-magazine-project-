@@ -19,12 +19,12 @@
 
             <div class="navbar">
                 <ul>
-                    <li><a href="Home.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
+                    <li><a href="./Home.php">Home</a></li>
+                    <li><a href="./about.php">About</a></li>
                     <li><a href="#">LU</a>
                      <ul>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Book</a></li>
+                        <li><a href="./blog.php">Blogs</a></li>
+                        <li><a href="./books.php">Book</a></li>
                         <li><a href="#">Entertainment</a></li>
                         <li><a href="#">Event</a></li>
                         <li><a href="#">Lu Club</a>
@@ -42,15 +42,15 @@
                         </li>
                      </ul>
                     </li>
-                    <li><a href="#">News</a></li>
+                    <li><a href="news.php">News</a></li>
                     <li><a href="#">Gallery</a>
                         
                         <ul>
-                            <li><a href="#">Photo</a></li>
-                            <li><a href="#">Video</a></li>
+                            <li><a href="./photo.php">Photo & Video</a></li>
+                            
                         </ul>
                     </li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="./contact.php">Contact</a></li>
                     <li><a href="registration.php">Sign Up</a></li>
                     <li><a href="login.php"> <i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
                 </ul>
@@ -60,78 +60,107 @@
         </div>
     </nav>
 
-    <header class="showcase">
-        <div class="container">
-            <div class="text-content">
-                <p class="lu-category">LU Magazine</p>
-                <h1>some LU Magazine article</h1>
-                <p>
-                    The university's annual science fair, a showcase of student research and innovation, captivated attendees with projects ranging from sustainable energy solutions to cutting-edge medical advancements. The event highlighted the university's commitment to fostering creativity and academic excellence.
-                </p>
-                <a href="./html/article.html">Read More</a>
-            </div>
+    <section class="hero">
+       <div class="heading">
+        <h1>About Us</h1>
+       </div>
+
+       <div class="container">
+        <div class="hero-content">
+         <h2>Welcome To Lu Magazine</h2>
+         <p>Welcome to LU Magazine, LU Magazine is the voice of Leading University, showcasing our community’s excellence through insightful stories, research highlights, and student life features. Stay connected and inspired with us.</p>
+         <button class="cta-button">Learn More</button>
         </div>
-    </header>
 
-    <section>
-        <h2>About Lu Club</h2>
-        <p>Lu Club is a place where bright minds meet to exchange ideas, explore new concepts, and collaborate on innovative projects.</p>
-    </section>
-    <section>
-        <h2>Upcoming Events</h2>
-        <ul>
-            <li>Workshop on Creative Writing - May 20, 2024</li>
-            <li>Guest Lecture on Artificial Intelligence - June 5, 2024</li>
-            <li>Networking Mixer - June 15, 2024</li>
-        </ul>
+        <div class="hero-image">
+            <img src="images/background.jpg" alt="">
+        </div>
+
+       </div>
     </section>
 
+    <section class="hero">
+        <div class="heading">
+          <h1>Developer Info</h1>
+        </div>
+    </section>
+
+    <section class="hero">
+       
+
+       <div class="container">
+        <div class="hero-content">
+         <h2>Jakir Hossen</h2>
+         <p>Graphic Designer <br> App and Web designer <br> Fulfillment by Amazon (FBA) Seller </p>
+         <button class="cta-button"><a href="https://jakir0hossen.github.io/My-Resume/">Learn More</a></button>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/dev1.jpg" alt="">
+        </div>
+
+       </div>
+    </section>
+    <section class="hero">
+       
+
+       <div class="container">
+        <div class="hero-content">
+         <h2>Minhaj Mahim</h2>
+         <p>Flutter developer  <br> Web designer</p>
+         <button class="cta-button"><a href="">Learn More</a></button>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/dev2.jpg" alt="">
+        </div>
+
+       </div>
+    </section>
+    <section class="hero">
+       
+
+       <div class="container">
+        <div class="hero-content">
+         <h2>Shajjadur Rahman</h2>
+         <p>Website content writer<br> Web designer</p>
+         <button class="cta-button"><a href="">Learn More</a></button>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/dev3.jpg" alt="">
+        </div>
+
+       </div>
+    </section>
+ 
     <footer>
-        <div class="container">
-            <div class="footer">
-                <article>
-                    <div class="logo">
-                        <img src="images/logo.png" alt="">
-                    </div>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
-                        deserunt assumenda enim non? Ratione ipsum voluptates fuga eos
-                        earum vitae.
-                    </p>
-                </article>
-
-                <article>
-                    <h4>EMAIL NEWSLETTER</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <input type="email" placeholder="Enter Email..." />
-                    <a href="#"> Subscribe</a>
-                </article>
-
-                <article>
-                    <h4>SITE LINKS</h4>
-                    <p>Help & Support</p>
-                    <p>Privacy Policy</p>
-                    <p>About Us</p>
-                    <p>Contact</p>
-                </article>
-
-                <article>
-                    <h4>JOIN OUR CLUB</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Obcaecati, maiores!
-                    </p>
-                    <a href="#">Join Now</a>
-                </article>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.google.co.uk/"><i class="fa-brands fa-google-plus"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                
             </div>
-
-            <div class="copyright">
-                <p>Copyright &copy; 2024, All Rights Reserved</p>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="Home.php">Home</a></li>
+                    <li><a href="news.php">News</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="lu.php">LU</a></li>
+                </ul>
             </div>
+            
+        </div>
+
+        <div class="footerBottom">
+            <p>Copyright &copy;2024; Design by <span class="designer">LuMagazine</span></p>
         </div>
     </footer>
-
-    <script src="./js/home.js"></script>
+ 
 </body>
 
 </html>
